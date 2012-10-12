@@ -1,46 +1,19 @@
-<!DOCTYPE html>
-<html>
+---
+layout: default
+title: Uporaba draagl-a!
+---
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Draagle-info : Prospekt za draagle" />
+# Kratka predstavitev Draagle 
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Draagle-info</title>
-  </head>
+## Kaj je Draagle?  
 
-  <body>
+Draagle je spletna aplikacija, ki ponuja najhitrejše in najpreglednejše iskanje oziroma preverjanje
+informacij o zdravilih v slovenskem jeziku. 
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/alesk/draagle-info">View on GitHub</a>
+## Na čem temelji delovanje Draagla?  
 
-          <h1 id="project_title">Draagle-info</h1>
-          <h2 id="project_tagline">Prospekt za draagle</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/alesk/draagle-info/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/alesk/draagle-info/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h1>Kratka predstavitev Draagle</h1>
-
-<h2>Kaj je Draagle?</h2>
-
-<p>Draagle je spletna aplikacija, ki ponuja najhitrejše in najpreglednejše iskanje oziroma preverjanje
-informacij o zdravilih v slovenskem jeziku. </p>
-
-<h2>Na čem temelji delovanje Draagla?</h2>
-
-<p>Njegovo delovanje temelji na interni podatkovni bazi, ki jo sestavljajo navedki pridobljeni s
+Njegovo delovanje temelji na interni podatkovni bazi, ki jo sestavljajo navedki pridobljeni s
 pomenskim označevanjem informacij v SmPC-jih. Pomembna prednost Draaglove baze pred drugimi je
 ohranjanje sledljivosti do mesta znotraj regulatorno potrjenega vira, SmPC, kjer se najde  dodatna
 razlaga s klikom na navedek – tako v pogledu Karta zdravila kot v pogledu Pregled uporabe zdravil.
@@ -52,21 +25,22 @@ dopolnjujejo tudi s preglednimi znanstvenimi viri, ki dopolnjujejo osnovne infor
 Priscus liste, ki podaja informacije o potencialni neprimernosti določenih zdravil pri starejših
 bolnikih.  Draagle trenutno razvija sistem za avtomatsko ažuriranje virov. Novi ali posodoboljeni
 dokumenti bodo tako po implementaciji tega sistema posodobljeni še tisti dan, ko bo regulator novost
-ali spremembo naredil dostopno.</p>
+ali spremembo naredil dostopno.
 
-<h2>Iskanje in brskanje</h2>
-
-<p>Iskanje zdravil in informacij o njih je možno po lastniškem, komercialnem imenu ali imenu
+## Iskanje in brskanje
+          
+          
+Iskanje zdravil in informacij o njih je možno po lastniškem, komercialnem imenu ali imenu
 učinkovine/skupine učinkovin. Kadar uporabnik ne ve, katero konkretno zdravilo ga zanima,
 lahko brska v rubriki Zdravstveno stanje po širših in ožjih anatomskih/patofizioloških
 področjih (npr.  alergije, bolečine, dihala, sečila) ali pa po hierarhiji ATC
 klasifikacije.  Za uporabo v lekarni je še posebej priročna možnost iskanja s čitalcem
 črtne kode.  Ob pripravljenosti ponudnikov lekarniških in ambulantnih programov, bo možno
-že kmalu z Draaglom upravljati tudi neposredno iz teh programov.</p>
+že kmalu z Draaglom upravljati tudi neposredno iz teh programov.
 
-<h2>Karta zdravila</h2>
-
-<p>Na karti zdravila so v kategorije in podkategorije indikacij, odmerjanj, kontraindikacij,
+## Karta zdravila 
+          
+Na karti zdravila so v kategorije in podkategorije indikacij, odmerjanj, kontraindikacij,
 opozoril, neželenih učinkov in interakcij razporejeni navedki iz SmPC-ja. Ob kliku na
 navedek se razpre del teksta (drugi nivo), ki služi kot vir in podaja podrobnejše
 informacije (rdeča pika označuje točno mesto, kliku nanjo pa sledi skok v SmPC, ki je
@@ -74,11 +48,11 @@ opremljen s kazalom – tretji nivo).  V levem zgornjem kotu so ikone (Draaglovi
 preseki), ki združujejo navedke povezane s specifičnimi stanji (jetrne bolezni,
 ledvične bolezni, starejši, mlajši, nosečnost in dojenje) in povdarke v povezavi z
 jemanjem zdravila v odvisnosti od obrokov, uživanjem alkohola in vplivom na
-psihofizične sposobnosti.</p>
+psihofizične sposobnosti.
 
-<h2>Pregled uporabe zdravil</h2>
+## Pregled uporabe zdravil 
 
-<p>»Pregled uporabe zdravil«  ponuja tri različne fokuse
+»Pregled uporabe zdravil«  ponuja tri različne fokuse
 na posebej za konkreten izbor zdravil izpostavljene informacije.  Izpostavljena stanja: Ta
 modulu iz izbora zdravil v košarici najprej skuša razbrati, katera so možna zdravstvena
 stanja bolnika (iz indikacij izbora zdravil). Na osnovi teh zdravstvenih stanj/skupine
@@ -91,19 +65,4 @@ učinkovine, ki jih vsebuje katero od drugih zdravil iz izbora. Klik na navedek 
 informacije iz vira – enako tudi pri izpostavljenih stanjih.  Draaglovi preseki za celotno
 kombinacijo zdravil: Ikone kot na karti zdravila so na voljo tudi znotraj »pregleda uporabe
 zdravil«. Tukaj se pokažejo preseki za celoten izbor zdravil naenkrat – naprimer, vsi
-navedki, ki govorijo posebej o starejših bolnikih. </p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">Draagle-info maintained by <a href="https://github.com/alesk">alesk</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
-    
-
-  </body>
-</html>
+navedki, ki govorijo posebej o starejših bolnikih. 
