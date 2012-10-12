@@ -9,7 +9,7 @@ Draagle je spletna aplikacija, ki ponuja najhitrejše in najpreglednejše iskanj
 informacij o zdravilih v slovenskem jeziku. 
 
 Draagle je prosto dostopen (zahteva se le registracija) na naslovu: [http://si.draagle.com](http://si.draagle.com)
-ali pa preko posebne tipke v vaši lekarniški aplikacii.
+ali pa preko posebne tipke v vaši lekarniški aplikaciji.
 
 ## Na čem temelji delovanje Draagla?  
 
